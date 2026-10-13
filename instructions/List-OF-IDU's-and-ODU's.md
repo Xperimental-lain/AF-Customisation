@@ -1,5 +1,4 @@
 
-
 Note: This list is still under review, the information in this table maybe be inaccurate to some extent. 
 
 # 📦 List of IDUs
@@ -36,7 +35,6 @@ Note: This list is still under review, the information in this table maybe be in
 | JODU52420 | Skyworth                      | UN65A (SDX65)                | JODU52420_REL_01_27_00_S   | uart❌ usb❌                                         | No❌, usb❌                  | LOCKED on latest FW                                                                                                                              |
 #### TBD: To be determined yet  
 
-
 ## Firmware links
 
 | Firmware ID        | V2.0.9                                                                                | V2.0.16                                                            | V2.0.6                                                                                |
@@ -61,3 +59,12 @@ Note: This list is still under review, the information in this table maybe be in
 | JODU51643_REL_31_00_00_S | [Download](https://mega.nz/file/PLRzAZYI#XS3CQBLaPiT0yl3AfmX6TBpjsmrMBP4_Ef1FiCAg3Xw) | ✅Unlock FW               |
 | JODU51740_REL_1315_01_28_S | [Download](https://mega.nz/file/XL41kBKa#_kubVpUhX8uhKU2xgAlpwLKWkOpq8XvRvccbwPmhk90)|✅Unlock FW               |
 | JODU51741_REL_1315_01_28_S | [Download](https://mega.nz/file/qaIFXKiY#AUJcvWMmi_nWsyodS5fPgoNlbyFaI1RXynLyUKJMRLM)|✅Unlock FW               |
+
+### Stock OpenWrt firmware links
+
+| Model family | OpenWrt stock firmware | Notes |
+| ------------ | ---------------------- | ----- |
+| MTK7986A / Filogic IDUs | [OpenWrt Firmware Selector](https://firmware-selector.openwrt.org/) | Use the generic `mediatek/filogic` target and select the image matching your revision. |
+| IPQ9554 / IPQ95xx IDUs | [OpenWrt Hardware Table](https://openwrt.org/toh/qualcomm/ipq95xx) | Use the IPQ95xx target and verify the exact board variant before flashing. |
+| Jio AirFiber / JIDU community guide | [OpenWrt forum thread](https://forum.openwrt.org/t/install-openwrt-in-jio-6101-6201-6401-6601-6701-6111-6411-6611-6811-6911/253608) | Community flash instructions for the Jio IDU family. |
+
