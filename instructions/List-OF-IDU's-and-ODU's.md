@@ -65,6 +65,6 @@ Note: This list is still under review, the information in this table maybe be in
 | Model family | OpenWrt stock firmware | Notes |
 | ------------ | ---------------------- | ----- |
 | MTK7986A / Filogic IDUs | [OpenWrt Firmware Selector](https://firmware-selector.openwrt.org/) | Use the generic `mediatek/filogic` target and select the image matching your revision. |
-| IPQ9554 / IPQ95xx IDUs | [OpenWrt Hardware Table](https://openwrt.org/toh/qualcomm/ipq95xx) | Use the IPQ95xx target and verify the exact board variant before flashing. |
+| #IPQ9554 / IPQ95xx IDUs | (#) | Use the IPQ95xx target and verify the exact board variant before flashing. |
 | Jio AirFiber / JIDU community guide | [OpenWrt forum thread](https://forum.openwrt.org/t/install-openwrt-in-jio-6101-6201-6401-6601-6701-6111-6411-6611-6811-6911/253608) | Community flash instructions for the Jio IDU family. |
 
